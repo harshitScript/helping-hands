@@ -1,13 +1,12 @@
-.request_form_outer {
+.offering_form_outer {
     padding: 1rem;
     overflow-y: auto;
 }
-
-.request_form_outer:hover{
+.offering_form_outer:hover{
     box-shadow: 0 0 4px grey;
 }
 
-.request_form_header {
+.offering_form_header {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: underline;

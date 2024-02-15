@@ -1,13 +1,10 @@
-.request_form_outer {
+.list_outer{
     padding: 1rem;
     overflow-y: auto;
+    grid-area: 3/1/4/3;
 }
 
-.request_form_outer:hover{
-    box-shadow: 0 0 4px grey;
-}
-
-.request_form_header {
+.list_header {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: underline;
