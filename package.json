@@ -35,5 +35,22 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "description": "A site for all the type of seekers and givers free of cost.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitScript/helping-hands.git"
+  },
+  "keywords": [
+    "cloths",
+    "seekers",
+    "givers"
+  ],
+  "author": "Harshit Bhawsar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitScript/helping-hands/issues"
+  },
+  "homepage": "https://github.com/harshitScript/helping-hands#readme"
 }
