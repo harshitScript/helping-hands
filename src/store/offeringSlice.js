@@ -2,13 +2,13 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const offeringSlice = createSlice({
     name: "offering",
-    initialState: { offerings: [{ requestId: '0091', fullName: 'Harshit Bhawsar', mobile: 7974792317, category: 'other', description: 'I do not want anything it was just for testing purpose.' }] },
+    initialState: { offerings: [{ id: '0090', fullName: 'Harshit Bhawsar', mobile: 7974792317, category: 'cloth', description: 'I want to give away my old cloths.' }] },
     reducers: {
         addOffering(state, action) {
-            state.requests = [...state.requests, action.payload]
+            state.offerings = [...state.offerings, action.payload]
         },
         removeOffering(state, action) {
-            state.requests = [...state.requests.filter(request => request.requestId !== action.payload)]
+            state.offerings = [...state.offerings.filter(request => request.requestId !== action.payload)]
         }
     }
 })

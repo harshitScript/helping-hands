@@ -1,0 +1,7 @@
+.listItem{
+    width: 100%;
+    border: 1px solid black;
+    margin: 8px 0px;
+    padding: 8px;
+    box-sizing: border-box;
+}

@@ -4,6 +4,11 @@
 }
 .offering_form_outer:hover{
     box-shadow: 0 0 4px grey;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 
 .offering_form_header {

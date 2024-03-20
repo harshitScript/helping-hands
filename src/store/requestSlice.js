@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const requestSlice = createSlice({
     name: "request",
-    initialState: { requests: [{ requestId: '0091', fullName: 'Harshit Bhawsar', mobile: 7974792317, category: 'other', description: 'I do not want anything it was just for testing purpose.' }] },
+    initialState: { requests: [{ id: '0091', fullName: 'Harshit Bhawsar', mobile: 7974792317, category: 'other', description: 'I do not want anything it was just for testing purpose.' }] },
     reducers: {
         addRequest(state, action) {
             state.requests = [...state.requests, action.payload]
