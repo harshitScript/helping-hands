@@ -13,8 +13,9 @@
 }
 
 .request_form_header {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: underline;
     margin-top: 0;
+    text-transform: uppercase;
 }

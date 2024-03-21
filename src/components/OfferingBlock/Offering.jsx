@@ -13,7 +13,7 @@ const Offering = () => {
             </Form.Item>
             <Form.Item label='Category'>
                 <Select allowClear placeholder='Select a category'>
-                    {categoryOptions.map(category => <Select.Option value={category.value}>{category.label}</Select.Option>)}
+                    {categoryOptions.map((category, index) => <Select.Option key={index} value={category.value}>{category.label}</Select.Option>)}
                 </Select>
             </Form.Item>
             <Form.Item label='Enter Description along with quantity'>
