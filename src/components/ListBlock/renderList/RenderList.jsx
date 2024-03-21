@@ -30,7 +30,7 @@ const ListItem = ({ record, recordType }) => {
                 <span className={styles.category}><CiShoppingTag />{record.category}</span>
                 <p style={{ margin: '0 0 0 4px', }}>{record.description}</p>
             </div>
-            <MdDelete onClick={handleDelete.bind(null, record.id, recordType)} style={{ color: 'red', cursor: 'pointer', fontSize: '1.2rem' }} />
+            <MdDelete title='Delete Entry' onClick={handleDelete.bind(null, record.id, recordType)} style={{ color: 'red', cursor: 'pointer', fontSize: '1.2rem' }} />
         </div>
     </div>
 }
