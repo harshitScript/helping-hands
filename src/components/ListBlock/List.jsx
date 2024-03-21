@@ -22,7 +22,7 @@ const List = () => {
             <p className={styles.list_header}>{`${type} List`}</p>
             <RiExchangeBoxLine onClick={handleListChange} title='Change list' style={{ fontSize: '1.5rem', cursor: 'pointer' }} />
         </div>
-        <RenderList data={data[type]} />
+        <RenderList data={data[type]} recordType={type} />
     </div>
 }
 export default List;

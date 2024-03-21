@@ -8,7 +8,7 @@ const offeringSlice = createSlice({
             state.offerings = [...state.offerings, action.payload]
         },
         removeOffering(state, action) {
-            state.offerings = [...state.offerings.filter(request => request.requestId !== action.payload)]
+            state.offerings = [...state.offerings.filter(offering => offering.id !== action.payload)]
         }
     }
 })
